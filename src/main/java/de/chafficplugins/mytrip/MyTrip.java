@@ -85,7 +85,7 @@ public final class MyTrip extends JavaPlugin {
         getConfig().options().copyDefaults(true);
         saveConfig();
         if(!Bukkit.getServer().getOnlineMode() && !getConfigBoolean(ConfigStrings.DISABLE_DRUG_SET)) {
-            getConfig().set(ConfigStrings.DISABLE_DRUG_SET, true);
+            getConfig().set(ConfigStrings.DISABLE_DRUG_SET, false);
             saveConfig();
             error("When your server is in offline mode the drug set feature cannot be used.");
             log("Disabled drug set.");

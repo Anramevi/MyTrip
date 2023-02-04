@@ -1,0 +1,13 @@
+name: 'MyTrip'
+version: '0.7.5'
+main: de.chafficplugins.mytrip.MyTrip
+api-version: 1.15
+prefix: MyTrip
+softdepend: [ CrucialAPI ]
+authors: [ 'ChafficPlugins' ]
+website: 'chafficplugins.github.io'
+commands:
+  mytrip:
+    description: For Drugs
+    aliases: [mt]
+    permission: mytrip.admin
